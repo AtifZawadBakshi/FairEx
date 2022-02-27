@@ -1,0 +1,28 @@
+
+
+.pagination {
+    display: flex;
+    padding-right: 13px;
+    list-style: none;
+    justify-content: end;
+}
+
+.pagination li a:hover{
+    text-decoration: none !important;
+  
+}
+
+.pagination li .page-link{
+     color:#222e3c
+}
+
+/* .pagination li.active a{
+     background: #17a2b8 !important;
+     border : 1px solid  #17a2b8 !important;
+     color:#fff !important
+} */
+
+.btn:focus,
+.form-control:focus{
+    box-shadow: none;
+}
